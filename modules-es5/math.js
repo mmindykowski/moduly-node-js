@@ -8,4 +8,14 @@ function add(...numbers) {
     return sum;
   }
 
+  function multiply(...numbers) {
+    let product = 0;
+
+    for (const number of numbers) {
+        product *= number;
+    }
+    return product;
+  }
+
+  
 module.exports = add;
