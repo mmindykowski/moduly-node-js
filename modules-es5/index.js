@@ -1,15 +1,5 @@
-function add(...numbers) {
-
-    // console.log(numbers);
+const add = require("./math");
 
 
-  let sum = 0;
 
-  for (let number of numbers) {
-    sum += number;
-  }
-
-  return sum;
-}
-
-console.log(add(2,2,3));
+// console.log(add(2, 2, 3));
