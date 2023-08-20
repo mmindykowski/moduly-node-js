@@ -16,3 +16,5 @@ function add(...numbers) {
 
   return sum;
 }
+
+export default { add, multiply };
