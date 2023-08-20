@@ -1,6 +1,6 @@
 function add(...numbers) {
 
-    console.log(numbers);
+    // console.log(numbers);
 
 
   let sum = 0;
