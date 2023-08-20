@@ -9,7 +9,7 @@ function add(...numbers) {
   }
 
   function multiply(...numbers) {
-    let product = 0;
+    let product = 1;
 
     for (const number of numbers) {
         product *= number;
@@ -18,4 +18,5 @@ function add(...numbers) {
   }
 
   
-module.exports = add;
+module.exports.add = add;
+module.exports.multiply = multiply;

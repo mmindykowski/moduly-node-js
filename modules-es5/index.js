@@ -1,5 +1,6 @@
-const add = require("./math");
+const math = require("./math");
 
+// console.log(add);
 
-
-console.log(add(2, 2, 3));
+console.log(math.add(3, 4, 5));
+console.log(math.multiply(3, 4, 5));
