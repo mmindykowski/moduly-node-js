@@ -1,22 +1,23 @@
 function add(...numbers) {
-    let sum = 0;
-  
-    for (let number of numbers) {
-      sum += number;
-    }
-  
-    return sum;
+  let sum = 0;
+
+  for (let number of numbers) {
+    sum += number;
   }
 
-  function multiply(...numbers) {
-    let product = 1;
+  return sum;
+}
 
-    for (const number of numbers) {
-        product *= number;
-    }
-    return product;
+function multiply(...numbers) {
+  let product = 1;
+
+  for (const number of numbers) {
+    product *= number;
   }
+  return product;
+}
 
-  
-module.exports.add = add;
-module.exports.multiply = multiply;
+module.exports = {
+  add: add,
+  multiply: multiply,
+};
