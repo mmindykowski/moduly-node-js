@@ -1,4 +1,4 @@
-import * as math from "./math.mjs";
+import * as math from "./math.js";
 
 // console.log(math);
 
