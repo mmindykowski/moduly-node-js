@@ -8,4 +8,4 @@
 // console.log(add(2, 2));
 const { add, multiply } = require("./math");
 
-console.log(multiply(3,10));
+console.log(multiply(3, 10));
