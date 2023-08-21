@@ -1,4 +1,4 @@
-export function multiply(...numbers) {
+function multiply(...numbers) {
   let product = 1;
 
   for (const number of numbers) {
@@ -7,7 +7,7 @@ export function multiply(...numbers) {
   return product;
 }
 
-export function add(...numbers) {
+function add(...numbers) {
   let sum = 0;
 
   for (let number of numbers) {
@@ -17,6 +17,6 @@ export function add(...numbers) {
   return sum;
 }
 
+export { add, multiply };
 
 // lub usunac sprzed funkcji i zapisac export {add, multiply}
-
